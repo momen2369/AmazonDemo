@@ -2,12 +2,13 @@ package tests;
 
 import baseTest.BaseTest;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 import pages.*;
 
 public class CheckOutTest extends BaseTest {
 
-    @org.testng.annotations.Test
-    public void test1() {
+    @Test
+    public void checkOutTest() {
         LoginEmailPage loginEmailPage = homePage.clickLoginButton();
         LoginPasswordPage loginPasswordPage = loginEmailPage.enterEmail();
         homePage = loginPasswordPage.enterPassword();
