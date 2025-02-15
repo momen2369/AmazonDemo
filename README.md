@@ -42,9 +42,10 @@ src/main/resources/config.properties
 mvn test
 ```
 
-🏗 Project Structure
-bash
-```
+
+## 🏗 Project Structure
+
+```bash
 📦 AmazonDemo
  ┣ 📂 src/main/java
  ┃ ┣ 📂 basePage
@@ -71,5 +72,5 @@ bash
  ┣ README.md
 ```
 
-### 📸 Screenshots
+## 📸 Screenshots
 <img width="1333" alt="image" src="https://github.com/user-attachments/assets/9f068b65-5979-4217-89e5-2c9991cfa6a6" />
